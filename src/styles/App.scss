@@ -1,0 +1,44 @@
+.App {
+  text-align: left;
+
+  #MySpellCheckerApp {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      width: 900px;
+      height: 500px;
+      overflow-y: scroll;
+      background-color: white;
+      padding: 30px;
+      border: 2px solid #289E5D;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+  
+    #MySpellCheckerApp:focus {
+      outline: none !important;
+    }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #7d7f85 0% 0% no-repeat padding-box;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C1C1C1;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666666;
+}

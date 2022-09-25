@@ -1,0 +1,27 @@
+.contextMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: auto;
+    width: fit-content;
+    z-index: 1;
+
+    .optionsList {
+        min-width: 150px;
+        border-radius: 4px;
+        background-color: #F0F7FA;
+
+        .optionListItem {
+            padding: 4px 0 4px 4px;
+            border: 1px solid #289E5D;
+            list-style-type: none;
+        }
+
+        .optionListItem:hover {
+            cursor: pointer;
+            background-color: #289E5D;
+        }
+    }
+}
